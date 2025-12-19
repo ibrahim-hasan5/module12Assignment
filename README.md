@@ -1,16 +1,24 @@
-# calculetor
+Overview:
+This Flutter calculator app delivers a professional calculation experience with modern design patterns and user-friendly features. Built as part of a Flutter learning project, it demonstrates state management, responsive design, and advanced UI/UX principles.
+Core Capabilities
 
-A new Flutter project.
+Standard Operations: Addition, subtraction, multiplication, and division
+Decimal Arithmetic: Full support for floating-point calculations
+Advanced Functions: Percentage calculations, sign toggling, and backspace
+Chained Operations: Perform multiple calculations in sequence without clearing
 
-## Getting Started
+Design Highlights
 
-This project is a starting point for a Flutter application.
+Dark Modern Interface: Sleek black theme with color-coded buttons for intuitive operation
+Responsive Layout: Scales beautifully across different screen sizes
+Haptic Feedback: Physical vibration response on button presses
+Expression Display: Real-time calculation preview at the top
+Smart Formatting: Automatic number formatting with scientific notation support
 
-A few resources to get you started if this is your first Flutter project:
+Technical Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Built with Flutter SDK for cross-platform compatibility
+Uses flutter_screenutil for responsive scaling
+Implements proper state management for calculation logic
+Includes error handling for edge cases (division by zero, overflow)
+Smooth animations and Material Design principles
